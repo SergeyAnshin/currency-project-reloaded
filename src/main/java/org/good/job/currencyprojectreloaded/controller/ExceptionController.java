@@ -17,6 +17,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 public class ExceptionController extends ResponseEntityExceptionHandler {
     private final AppErrorResponseGenerator appErrorResponseGenerator;
 
+    // TODO Custom validation message for TypeMismatchException
     @Override
     protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex,
             HttpHeaders headers, HttpStatusCode status, WebRequest request) {
