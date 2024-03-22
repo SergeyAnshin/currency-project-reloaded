@@ -8,9 +8,8 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class ExchangeRateSourceDto {
+public class ExchangeRateSourceTypeDto {
     private long id;
-    private ExchangeRateSourceTypeDto exchangeRateSourceType;
     private String name;
 
 }
