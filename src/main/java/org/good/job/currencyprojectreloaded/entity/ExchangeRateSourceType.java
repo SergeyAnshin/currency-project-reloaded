@@ -1,22 +1,18 @@
 package org.good.job.currencyprojectreloaded.entity;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+@SuperBuilder
 @Getter
 @Setter
 @ToString
 
 @Entity
-public class ExchangeRateSourceType {
-    @Id
-    @GeneratedValue
-    private long id;
+public class ExchangeRateSourceType extends GeneralEntity {
     private String name;
 
 }

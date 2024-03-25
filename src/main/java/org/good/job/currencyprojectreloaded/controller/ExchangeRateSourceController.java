@@ -5,7 +5,7 @@ import org.good.job.currencyprojectreloaded.dto.ExchangeRatesSourcesDto;
 import org.good.job.currencyprojectreloaded.dto.RequestParametersData;
 import org.good.job.currencyprojectreloaded.response.ExchangeRatesSourcesResponse;
 import org.good.job.currencyprojectreloaded.response.assembler.ExchangeRatesSourcesResponseModelAssembler;
-import org.good.job.currencyprojectreloaded.service.impl.ExchangeRateSourceService;
+import org.good.job.currencyprojectreloaded.service.ExchangeRateSourceService;
 import org.good.job.currencyprojectreloaded.validator.PageCheck;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.http.ResponseEntity;
